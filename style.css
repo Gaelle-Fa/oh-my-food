@@ -1,0 +1,12 @@
+* {
+  font-family: roboto, sans-serif;
+}
+
+.logo-header {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */
