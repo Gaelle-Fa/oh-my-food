@@ -1,0 +1,70 @@
+*{
+    font-family: roboto, sans-serif;
+}
+.logo--header{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 50%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+  body{
+    box-sizing: border-box;
+    margin: 0;
+}
+.green-light {
+    color: #99E2D0;
+}
+.green{
+    color:#008766;
+}
+.blue{
+    color: #89C8FA;
+}
+.blue-dark{
+    color: #003A68;
+}
+.purple{
+    color: #9356DC;
+}
+.search-bar{
+    background-color: grey;
+
+}
+.btn-lineargradient{
+    
+        @include btn-gradient;
+      
+        @include shadows;
+        width: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+        @include desktop-only {
+          width: 20%;
+        }
+
+.btn--choise{
+    border:none;
+
+}
+.operations__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5em;
+    height: 1.5em;
+    color: $white;
+    background-color: $purple;
+    border-radius: 50px;
+}
+.card--new{
+    border:none;
+    background-color: $green-light;   
+}
+
