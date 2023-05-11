@@ -1,0 +1,89 @@
+  @media screen and (min-width: 1029px) {
+
+    .logo-header{
+        margin-left: 30%;
+        width: 40%;
+    }
+    .btn-lineargradient{
+        width: 20%;
+        margin-left: 40%;
+        margin-top: 2%;
+    }
+    .Card-list{
+        flex-direction: row;
+        margin: 20px;
+        margin-top: 8%;
+       
+    }
+    .h2-container-list{
+        flex-direction: column;
+        margin-top: -10%;
+        margin-left: 15%;
+    }
+    .container-list{
+        flex-direction: row;
+        align-items: center;
+        margin-right: 15%;
+    }
+    .container-resto{
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 0;
+        padding-top: 20px;
+        align-items: center;
+    }    
+    .card-resto{
+        flex-direction: row;
+        width: 30%;
+    }
+    .list-footer{
+        display: inline;
+        margin-left: 30%;
+        
+    }
+    .container-logo-pages{
+        height: 180px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .logo-pages{
+        margin-left: 20%;
+        margin-bottom: 3%;
+    }
+    .fleche{
+        font-size: x-large;
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+    }
+    .menu-container{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .resto-name{
+        display: flex;
+        justify-content: center;
+    }
+    .card-plat{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .btn-lineargradient-commande{
+        width: 20%;
+        justify-content: center;
+        margin-left: 40%;
+    }
+    .h3-resto{
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    .body-resto{
+        background-color: white;
+    }
+    .container-footer{
+        background-color:#353535;
+        color:white;
+    }    
+  }
