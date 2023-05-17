@@ -1,4 +1,5 @@
-  @media screen and (min-width: 1029px) {
+  @media screen and (min-width: 1024px) {
+/***accueil***/
 
     .logo-header{
         margin-left: 30%;
@@ -11,60 +12,79 @@
     }
     .Card-list{
         flex-direction: row;
-        margin: 20px;
-        margin-top: 8%;
-       
+        flex-wrap: wrap;
+        
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
     }
     .h2-container-list{
-        flex-direction: column;
-        margin-top: -10%;
-        margin-left: 15%;
+        margin-right: -5%;
+        margin-top: -3px;
+       
+        align-items: center;
+       
     }
     .container-list{
         flex-direction: row;
+        justify-content: center;
+        width: 80%;
         align-items: center;
-        margin-right: 15%;
+        margin-left: 20%;
     }
     .container-resto{
         flex-wrap: wrap;
         flex-direction: row;
-        width: 100%;
-        margin-top: 0;
         padding-top: 20px;
         align-items: center;
     }    
     .card-resto{
         flex-direction: row;
-        width: 30%;
+        flex-wrap: wrap;
+        width: 25%;
     }
     .list-footer{
         display: inline;
         margin-left: 30%;
         
     }
+/***page-resto***/
+
     .container-logo-pages{
         height: 180px;
         display: flex;
         align-items: center;
-    
+        width: 70%;
     }
     .logo-pages{
-        margin-left: 20%;
+        margin-left: 25%;
         margin-bottom: 3%;
+        
     }
-    .fleche{
-        font-size: x-large;
+    .icon-fleche{
+        font-size:xx-large;
         display: flex;
         align-items: center;
         margin-left: 5%;
+        margin-bottom: 5%;
+       
     }
     .menu-container{
-        width: 70%;
-        margin-left: 15%;
+        width: 80%;
+        margin-left: 10%;
     }
     .resto-name{
         display: flex;
         justify-content: center;
+        margin-left: 5%;
+    }  
+    .heart-card-page{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+        margin-top: 1%;
+       
     }
     .card-plat{
         width: 60%;
@@ -83,6 +103,7 @@
         background-color: white;
     }
     .container-footer{
+        position: relative;
         background-color:#353535;
         color:white;
     }    
