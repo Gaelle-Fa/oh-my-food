@@ -1,0 +1,39 @@
+.container-footer{
+  background-color:$dark-grey;
+  color:white;
+  margin-top: -5%;
+  padding-bottom: 3%;
+ 
+.title-footer{
+    font-family: Shrikhand;
+    font-weight:bolder;
+    margin-left: 5%; 
+    font-size: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .list-footer{
+    
+    color:white;
+    text-decoration: none;
+    display: block;
+    flex-direction: column;
+    gap:30px;
+    margin-bottom: 2%;
+    margin-left: 5%;
+  }
+  
+  .list-footer-icon{
+    color:white;
+    text-decoration: none;
+    display: block;
+    flex-direction: column;
+    gap:30px;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    padding-right: 15px;
+    
+  }
+} 
+  
