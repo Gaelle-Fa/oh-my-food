@@ -1,11 +1,12 @@
-@import"/sass/base.css";
-@import"/sass/layout/header.scss";
-@import "/sass/layout/local-bar.scss";
-@import"/sass/layout/explorer.scss";
-@import"/sass/layout/fonctionnement.scss";
-@import"/sass/layout/card-resto.scss";
-@import"/sass/layout/footer.scss";
-@import"/sass/utils.scss";
-@import"/sass/layout.scss/pages-resto.scss";
+@import"./utils.scss";
+@import"./mixin.scss";
+@import"./base.scss";
+@import"./layout/header.scss";
+@import "./layout/local-bar.scss";
+@import"./layout/explorer.scss";
+@import"./layout/fonctionnement.scss";
+@import"./layout/card-resto.scss";
+@import"./layout/footer.scss";
+@import"./layout/pages-resto.scss";
 
 

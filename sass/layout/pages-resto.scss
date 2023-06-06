@@ -1,3 +1,4 @@
+
 .container-logo-pages{
     width: 100%;
     height: 203px;
@@ -41,7 +42,7 @@
     font-weight: bolder;
     margin-left: 5%;
     position: relative;  
-    @include mixin.heart;
+    @include heart;
 }    
   .h3-resto{
     font-weight:lighter;
