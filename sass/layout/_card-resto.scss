@@ -1,44 +1,36 @@
-
-.hoverheart:hover{
-    .hoverheart__content-solid{
-      
-      cursor: pointer;
-      font-size: 5px;
-      position: absolute;
-      right: 5px;
-      top: 80%;
-      background-image: $gradient;
-      background-clip: text;
-      color: transparent;
-      -webkit-background-clip:text ;
-      animation: opacity 1.5s ease;
-      opacity: 0;
-      line-height: normal;
-     
-    }
-    .hoverheart__content-light{
-      cursor: pointer;
-      font-size: 5px;
-      position: absolute;
-      right: 5px;
-      top: 80%;
+.hoverheart-accueil:hover{
+  .hoverheart-accueil__content-solid {
       opacity: 1;
-      
-    }
-    .fa-xl{
-      line-height: normal;
-    }
-    .hoverheart__content-solid {
-        opacity: 1;
-        transition: all 1s ease-in-out;
-    }
-    .hoverheart__content-light{
-        opacity: 0;
-        transition: all 1s ease-in-out;
-    }
+      transition: all 1s ease-in-out;
   }
-
-  
+  .hoverheart-accueil__content-light{
+      opacity: 0;
+      transition: all 1s ease-in-out;
+  }
+}
+.hoverheart-accueil__content-solid{
+  cursor: pointer;
+  font-size: x-large;
+  position:absolute;
+  right: 5px;
+  top: 80%;
+  background-image: linear-gradient($purple,$pink);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 0;
+ 
+}
+.hoverheart-accueil__content-light{
+  cursor: pointer;
+  font-size: x-large;
+  position:absolute;
+  right: 5px;
+  top: 80%;
+  opacity: 1;
+}
+ 
+ 
     
   .container-resto{
     background-color:$color-background ;
@@ -47,6 +39,7 @@
     padding-bottom:10%;
   }
   .h2-container-resto{
+    position: relative;
     margin-bottom: 10%;
     margin-left: 5%;
     font-weight: 900;

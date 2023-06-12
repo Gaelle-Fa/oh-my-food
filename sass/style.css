@@ -1,9 +1,20 @@
-
 * {
   font-family: roboto, sans-serif;
+  box-sizing: border-box;
 }
 
-/***header logo****/
+main {
+  display: block;
+}
+
+header {
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+}
+
 .logo-header {
   width: 80%;
   display: flex;
@@ -14,7 +25,6 @@
   margin-left: 10%;
 }
 
-/*** BARRE DE LOCALISATION***/
 .local-bar {
   display: flex;
   justify-content: center;
@@ -25,26 +35,22 @@
   margin: 0;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
 }
-
-.local-text {
+.local-bar .local-text {
   margin-left: 5%;
 }
 
-/*****BLOC TEXTE ET BOUTON EXPLORER***/
 .container-bloc-title {
   padding: 2rem;
   text-align: center;
-  background-color: #F6F6F6;
+  background: #F6F6F6;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-
-.P {
+.container-bloc-title .P {
   font-weight: 300;
 }
-
-.btn-lineargradient {
+.container-bloc-title .btn-lineargradient {
   margin-left: 30%;
   border-radius: 50px;
   width: 40%;
@@ -52,10 +58,9 @@
   padding: 25px;
   margin-top: 3%;
   margin-bottom: 5%;
-  background: linear-gradient(#FF79DA, #9356DC) pink, #9356DC;
   border: none;
   color: white;
-  font-weight: 300;
+  background-image: linear-gradient(#9356DC, #FF79DA);
   font-size: large;
   box-shadow: 5px 5px 10px #353535;
   display: flex;
@@ -63,15 +68,22 @@
   align-items: center;
 }
 
-/*** CONTAINER CARD LISTE ***/
-.btn-number {
-  background-color: #9356DC;
-  color: white;
-  border-radius: 100%;
-  border: none;
-  display: inline;
-  position: relative;
-  margin-left: -17%;
+button:hover {
+  opacity: 0.7;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.Card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #F6F6F6;
+  width: 90%;
+  height: 80px;
+  margin-bottom: 10%;
+  box-shadow: 5px 5px 10px #353535;
 }
 
 .h2-container-list {
@@ -79,12 +91,25 @@
   margin-bottom: 10%;
   display: flex;
   flex-direction: column;
+  margin-left: 5%;
+}
+
+.btn-number {
+  background-color: #9356DC;
+  color: white;
+  border-radius: 100%;
+  border: none;
+  display: inline;
+  position: relative;
+  margin-left: -19%;
 }
 
 .container-list {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .i-list {
@@ -98,45 +123,31 @@
   font-size: 20px;
 }
 
-.Card-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  border-radius: 20px;
-  background-color: #F6F6F6;
-  width: 80%;
-  height: 80px;
-  margin-bottom: 10%;
-  box-shadow: 5px 5px 10px #353535;
-}
-
-/***CONTAINER CARD RESTO***/
-.hoverheart:hover .hoverheart__content-solid {
+.hoverheart-accueil:hover .hoverheart-accueil__content-solid {
   opacity: 1;
-  transition: 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
-.hoverheart:hover .hoverheart__content-light {
+.hoverheart-accueil:hover .hoverheart-accueil__content-light {
   opacity: 0;
-  transition: 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
-.hoverheart__content-solid {
+.hoverheart-accueil__content-solid {
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: x-large;
   position: absolute;
   right: 5px;
   top: 80%;
-  background: linear-gradient(#FF79DA, #9356DC);
+  background-image: linear-gradient(#9356DC, #FF79DA);
+  background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: effet-opacity 1.5s ease;
+  color: transparent;
   opacity: 0;
 }
 
-.hoverheart__content-light {
+.hoverheart-accueil__content-light {
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: x-large;
   position: absolute;
   right: 5px;
   top: 80%;
@@ -151,6 +162,7 @@
 }
 
 .h2-container-resto {
+  position: relative;
   margin-bottom: 10%;
   margin-left: 5%;
   font-weight: 900;
@@ -206,8 +218,13 @@
   margin-top: -3%;
 }
 
-/***FOOTER***/
-.title-footer {
+.container-footer {
+  background-color: #353535;
+  color: white;
+  margin-top: -5%;
+  padding-bottom: 3%;
+}
+.container-footer .title-footer {
   font-family: Shrikhand;
   font-weight: bolder;
   margin-left: 5%;
@@ -216,15 +233,7 @@
   display: flex;
   flex-direction: column;
 }
-
-.container-footer {
-  background-color: #353535;
-  color: white;
-  margin-top: -5%;
-  padding-bottom: 3%;
-}
-
-.list-footer {
+.container-footer .list-footer {
   color: white;
   text-decoration: none;
   display: block;
@@ -233,8 +242,7 @@
   margin-bottom: 2%;
   margin-left: 5%;
 }
-
-.list-footer-icon {
+.container-footer .list-footer-icon {
   color: white;
   text-decoration: none;
   display: block;
@@ -245,60 +253,10 @@
   padding-right: 15px;
 }
 
-/***pages resto***/
-/****main****/
-.main {
-  background-color: #F6F6F6;
-}
-.main .img {
-  height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: 50% 70%;
-     object-position: 50% 70%;
-  width: 100%;
-}
-.main .titre-menu {
-  position: relative;
-  top: -4rem;
-  border-radius: 3rem 3rem 0 0;
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-basis: 95%;
-  padding-left: 2rem;
-  background-color: #F6F6F6;
-}
-.main .titre-menu .heart-color {
-  display: flex;
-  height: 50px;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-}
-.main .titre-menu .heart-color .fa-solid.fa-heart {
-  display: none;
-}
-.main .titre-menu .heart-color:hover {
-  cursor: pointer;
-  opacity: 0;
-  background: linear-gradient(#FF79DA, #9356DC);
-  animation: effet-opacity 1.5s ease;
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.main .titre-menu .heart-color:hover .fa-regular.fa-heart {
-  display: none;
-}
-.main .titre-menu .heart-color:hover .fa-solid.fa-heart {
-  display: inline;
-}
-
 .container-logo-pages {
   width: 100%;
-  height: 203px;
+  height: -moz-fit-content;
+  height: fit-content;
   background-color: white;
   margin-left: 5%;
   display: flex;
@@ -307,17 +265,16 @@
 
 .logo-pages {
   width: 70%;
+  height: 100px;
   margin-left: 10%;
   margin-top: 5%;
   margin-bottom: 5%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .icon-fleche {
-  font-size: x-large;
+  font-size: xx-large;
   display: flex;
-  margin-top: 6%;
+  margin-top: 10%;
   text-decoration: none;
   color: black;
 }
@@ -329,34 +286,64 @@
 }
 
 .menu-container {
-  display: flex;
-  flex-direction: column;
   position: relative;
   padding-top: 10%;
   margin-top: -40px;
   border: none;
   border-radius: 30px 30px 0 0;
   background-color: #F6F6F6;
+  padding-bottom: 5%;
 }
 
-.resto-name {
+.card-resto-menu {
+  margin: 0px 20px;
+}
+
+.bloc-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-resto-menu__title {
+  position: relative;
+}
+
+.card-resto-menu__resto-name {
   font-family: Shrikhand;
   font-weight: bolder;
-  margin-left: 5%;
+  font-size: xx-large;
+  margin: 5%;
 }
 
-.heart-card-page {
-  margin-left: 60%;
-  margin-top: -10%;
-  margin-bottom: 10%;
-}
-.heart-card-page .hover-heart:hover .hover-heart__content-solid {
+.hoverheart:hover .hoverheart__content-solid {
   opacity: 1;
-  transition: 0.3s ease-in-out;
+  transition: all 1s ease-in-out;
 }
-.heart-card-page .hover-heart:hover .hover-heart__content-light {
+.hoverheart:hover .hoverheart__content-light {
   opacity: 0;
-  transition: 0.3s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.hoverheart__content-solid {
+  cursor: pointer;
+  font-size: xx-large;
+  position: absolute;
+  right: 5px;
+  top: 5%;
+  background-image: linear-gradient(#9356DC, #FF79DA);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 0;
+}
+
+.hoverheart__content-light {
+  cursor: pointer;
+  font-size: xx-large;
+  position: absolute;
+  right: 5px;
+  top: 5%;
+  opacity: 1;
 }
 
 .h3-resto {
@@ -371,55 +358,87 @@
 }
 
 .card-plat {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-plat__name {
   border: none;
-  border-radius: 15px;
+  border-radius: 20px;
   background-color: white;
   width: 90%;
   margin-left: 5%;
   margin-bottom: 5%;
-  padding-bottom: 15px;
   box-shadow: 5px 5px 10px #353535;
   position: relative;
+  overflow: hidden;
 }
-.card-plat:hover .check-content {
-  transform: translateX(-65px);
+
+.card-plat__name:hover .card-plat-name__text {
+  width: calc(100% - 65px);
+  transition: width 0.5s ease-in-out;
 }
-.card-plat .check-content {
-  height: 0px;
-  background: #99E2D0;
+
+.card-plat__name:hover .card-plat-name__check-content {
+  transform: translateX(0px);
+  transition: 0.5s ease-in-out;
+}
+
+.card-plat-name__plat {
+  margin: 10px 0px 0px 15px;
+  font-weight: normal;
+  font-size: x-large;
+}
+
+.card-plat-name__text {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+  transform-origin: left 50%;
+}
+
+.card-plat-name__A {
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: medium;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-plat-name__P {
+  display: flex;
+  align-items: flex-end;
+  width: 50px;
+  font-weight: bold;
+  font-size: large;
+  margin: 15px 0 15px 5px;
+}
+
+.card-plat-name__check-content {
   position: absolute;
+  background-color: #99E2D0;
   top: 0;
   bottom: 0;
-  right: -65px;
-  width: 65px;
-  border-radius: 0px 20px 20px 0px;
+  right: 0;
+  width: 70px;
+  transform-origin: right 50%;
+  border-radius: 0px 15px 15px 0px;
+  transform: translateX(70px);
   overflow: hidden;
   transition-duration: 1s;
 }
-.card-plat .check {
-  position: absolute;
+
+.check {
   color: white;
-  opacity: 1;
   display: flex;
-}
-
-.name-plat {
-  margin-left: 3%;
-  margin-bottom: -1%;
-  font-weight: 400;
-}
-
-.name-plat-A {
-  margin-left: 3%;
-  display: inline;
-  justify-content: space-between;
-  font-weight: 300;
-}
-
-.name-plat-P {
-  margin-left: 85%;
-  margin-top: -5%;
-  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  margin: 40%;
+  font-size: x-large;
 }
 
 .btn-lineargradient-commande {
@@ -431,7 +450,7 @@
   margin-top: 10%;
   margin-left: 30%;
   margin-bottom: 15%;
-  background: linear-gradient(#FF79DA, #9356DC);
+  background: linear-gradient(#9356DC, #FF79DA);
   border: none;
   color: white;
   font-weight: 500;

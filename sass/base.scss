@@ -2,12 +2,14 @@
     font-family: roboto, sans-serif;
     box-sizing: border-box;
   }
-
+main{
+  display: block;
+}
  
 
   header{
     text-align: center;
-    box-shadow: 0 0 0.5rem grey ;
+   
   }
   body{
     margin: 0px;

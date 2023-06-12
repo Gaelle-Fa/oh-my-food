@@ -1,0 +1,204 @@
+
+.container-logo-pages{
+    width: 100%;
+    height: fit-content;
+    background-color:white;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+  }
+  .logo-pages{
+    width: 70%;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+  
+  }
+  .icon-fleche{
+    font-size: xx-large;
+    display: flex;
+    margin-top: 10%;
+    text-decoration: none;
+    color:black;
+  }
+  
+  .img-resto{
+    width: 100%;
+    object-fit: cover;
+  }
+  .menu-container{
+    position: relative;
+    padding-top: 10%;
+    margin-top: -40px;
+    border: none;
+    border-radius: 30px 30px 0 0;
+    background-color: #F6F6F6;
+    padding-bottom: 5%;
+  }
+  .card-resto-menu{
+    margin: 0px 20px;
+
+  }
+  .bloc-menu{
+    display:flex;
+    flex-direction: column;
+  }
+.card-resto-menu__title{
+  position: relative;
+  
+}
+  .card-resto-menu__resto-name{
+    font-family: Shrikhand;
+    font-weight:bolder;
+    font-size: xx-large;
+    margin:5%;
+    
+  } 
+  
+  .hoverheart:hover{
+    .hoverheart__content-solid {
+        opacity: 1;
+        transition: all 1s ease-in-out;
+    }
+    .hoverheart__content-light{
+        opacity: 0;
+        transition: all 1s ease-in-out;
+    }
+  }
+  .hoverheart__content-solid{
+    cursor: pointer;
+    font-size: xx-large;
+    position:absolute;
+    right: 5px;
+    top: 5%;
+    background-image: linear-gradient($purple,$pink);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0;
+   
+  }
+  .hoverheart__content-light{
+    cursor: pointer;
+    font-size:xx-large;
+    position:absolute;
+    right: 5px;
+    top: 5%;
+    opacity: 1;
+  }
+
+  .h3-resto{
+    font-weight:lighter;
+    margin-left: 5% ;
+    margin-bottom: 5%;
+   
+  }
+  .h3-resto-border{
+    border-bottom: solid 3px $green-wather;
+    width: 45px;
+  }
+  .card-plat{
+   display: flex;
+   flex-direction: column;
+  }
+  .card-plat__name{
+      
+      border: none;
+      border-radius: 20px;
+      background-color:white;
+      width: 90%;
+      margin-left: 5%;
+      margin-bottom: 5%;
+      box-shadow:$shadow;
+      position: relative;
+      overflow: hidden;
+     
+     
+    } 
+    .card-plat__name:hover .card-plat-name__text {
+      width: calc(100% - 65px);
+      transition: width 0.5s ease-in-out;
+    }
+    .card-plat__name:hover .card-plat-name__check-content {
+      transform: translateX(0px);
+      transition: 0.5s ease-in-out;
+    }  
+    .card-plat-name__plat{
+     margin:10px 0px 0px 15px;
+     font-weight:normal;
+     font-size:x-large ;
+     
+   }
+.card-plat-name__text{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 100%;
+    transform-origin: left 50%;
+    
+  }  
+  .card-plat-name__A{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size:medium;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .card-plat-name__P{
+    display: flex;
+    align-items: flex-end;
+    width: 50px;
+    font-weight: bold;
+    font-size:large;
+    margin: 15px 0 15px 5px;
+  }
+  
+  .card-plat-name__check-content{
+    position: absolute;
+    background-color:$green-wather;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    transform-origin: right 50%;
+    border-radius: 0px 15px 15px 0px;
+    transform: translateX(70px);
+    overflow: hidden;
+    transition-duration: 1s;
+  }
+  
+  .check{
+      color:white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 40%;
+      font-size: x-large;
+    } 
+  .btn-lineargradient-commande{
+    margin-left: 20%;
+    border-radius: 50px;
+    width: 40%;
+    height: 40px;
+    padding: 25px;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-bottom: 15%;
+    background:linear-gradient($purple,$pink);
+    border : none;
+    color: white;
+    font-weight: 500;
+    font-size: large;
+    box-shadow:$shadow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  
