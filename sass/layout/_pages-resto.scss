@@ -28,6 +28,29 @@
     width: 100%;
     object-fit: cover;
   }
+  
+  @keyframes menu {
+    0%{
+      opacity: 0 ;
+      
+    }
+    100%{
+      opacity: 100%;
+    }
+  }
+ 
+.entrees{
+  
+  animation: menu 3s 2.5s both;
+}
+.plats{
+  
+  animation: menu 3s 3.5s both;
+}
+.desserts{
+ 
+  animation: menu 3s 4.5s both;
+}
   .menu-container{
     position: relative;
     padding-top: 10%;
@@ -125,11 +148,20 @@
       transform: translateX(0px);
       transition: 0.5s ease-in-out;
     }  
+    .card-plat__name:hover .card-plat-name__plat{
+      width:70%
+    }
+    .card-plat__name:hover .card-plat-name__A{
+      width: 80%;
+    }
     .card-plat-name__plat{
      margin:10px 0px 0px 15px;
      font-weight:normal;
      font-size:x-large ;
-     
+     width: 90%;
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
    }
 .card-plat-name__text{
     display: flex;
@@ -141,10 +173,8 @@
   }  
   .card-plat-name__A{
     margin-left: 15px;
-    display: flex;
-    justify-content: space-between;
     font-weight: 400;
-    font-size:medium;
+    width: 90%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

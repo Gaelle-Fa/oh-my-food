@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./sass/style.css">
     <link rel="stylesheet" type="text/css" href="./sass/m-q-style.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https : //fonts.googleapis.com/css2?family= Roboto & family= Shrikhand & display=swap" rel="stylesheet">
@@ -19,6 +19,9 @@
 </head>
 
 <body>
+    <div class="loader">
+
+    </div>
     <header>
         <div>
             <img class="logo-header" src="assets/images/logo/ohmyfood.png" alt="logo oh my food">
@@ -26,35 +29,40 @@
         </div>
     </header>
 
-    
-        <section class="local-bar">
-            <i class="fa-sharp fa-solid fa-location-dot"></i>
 
-            <span class="local-text">Paris, Belleville</span>
-        </section>
-        <section class="container-bloc-title">
-            <h1>Réservez le menu qui<br> vous convient</h1>
-            <p>Découvrez des restaurants d'exception,séléctionnés par nos soins.</p>
-            <div> 
+    <section class="local-bar">
+        <i class="fa-sharp fa-solid fa-location-dot"></i>
+
+        <span class="local-text">Paris, Belleville</span>
+    </section>
+    <section class="container-bloc-title">
+        <h1>Réservez le menu qui<br> vous convient</h1>
+        <p>Découvrez des restaurants d'exception,séléctionnés par nos soins.</p>
+        <div>
             <button class="btn-lineargradient"> explorer nos restaurants</button>
-            </div>
-        </section>     
-        <h2 class="h2-container-list">Fonctionnement</h2>
-        <section class="container-list">
-           
-            <article class="Card-list"><button class="btn-number">1</button>
-                <i class="fa-sharp fa-solid fa-mobile-screen-button i-list"></i>Choississez un restaurant</article>
-            <article class="Card-list"><button class="btn-number">2</button>
-                <i class="fa-sharp fa-solid fa-list i-list"></i>Composez votre menu</article>
-            <article class="Card-list"><button class="btn-number">3</button>
-                <i class="fa-sharp fa-solid fa-store i-list-color"></i>Dégustez au restaurant</article>
+        </div>
+    </section>
+    <h2 class="h2-container-list">Fonctionnement</h2>
+    <section class="container-list">
 
-        </section>
-    <main>           
-            
-        
+        <article class="Card-list"><button class="btn-number">1</button>
+            <i class="fa-sharp fa-solid fa-mobile-screen-button i-list"></i>Choississez un restaurant
+        </article>
+        <article class="Card-list"><button class="btn-number">2</button>
+            <i class="fa-sharp fa-solid fa-list i-list"></i>Composez votre menu
+        </article>
+        <article class="Card-list"><button class="btn-number">3</button>
+            <i class="fa-sharp fa-solid fa-store i-list-color"></i>Dégustez au restaurant
+        </article>
+
+    </section>
+    <main>
+
+
         <section class="container-resto">
-            <h2 class="h2-container-resto ">Restaurants</h2>
+            <div class="container-resto__title">
+                <h2 class="h2-container-resto ">Restaurants</h2>
+            </div>
             <article class="card-resto">
                 <div class="card-img">
                     <button class="btn-new">NOUVEAU</button><img class="card-img"
@@ -70,7 +78,7 @@
                         <i class=" far fa-heart hoverheart-accueil__content-light"></i>
                     </span>
                     <p class="card-text">Mélimontant</p>
-            
+
                 </div>
             </article>
 
@@ -89,10 +97,10 @@
                         <i class=" fas  fa-heart hoverheart-accueil__content-solid"></i>
                     </span>
                     <p class="card-text">Charonne</p>
-                    
+
 
                 </div>
-                
+
             </article>
             <article class="card-resto">
                 <div class="card-img">
@@ -137,13 +145,13 @@
         <section>
             <div class="container-footer">
                 <h1 class="title-footer">ohmyfood</h1>
-                <nav >
-                    
+                <nav class="title-footer__nav">
+
                     <a href="#" class="list-footer-icon">
                         <i class="fa-solid fa-utensils "></i>Proposer un restaurant</a>
-                    <a href="#" class="list-footer-icon">   
+                    <a href="#" class="list-footer-icon">
                         <i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</a>
-                       
+
                     <a href="#" class="list-footer">Mention légales</a>
                     <a href="mailto:gaelle.faure38420@gmail.com" class="list-footer">Contact</a>
                 </nav>
