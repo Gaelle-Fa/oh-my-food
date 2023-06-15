@@ -169,7 +169,7 @@
     overflow: hidden;
     width: 100%;
     transform-origin: left 50%;
-    
+    transition-duration: 1s;
   }  
   .card-plat-name__A{
     margin-left: 15px;
@@ -186,8 +186,8 @@
     font-weight: bold;
     font-size:large;
     margin: 15px 0 15px 5px;
+    
   }
-  
   .card-plat-name__check-content{
     position: absolute;
     background-color:$green-wather;

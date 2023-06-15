@@ -289,6 +289,9 @@ button:hover {
   margin-left: 5%;
   padding-right: 15px;
 }
+.container-footer .icon {
+  margin-right: 10px;
+}
 
 .container-logo-pages {
   width: 100%;
@@ -465,6 +468,7 @@ button:hover {
   overflow: hidden;
   width: 100%;
   transform-origin: left 50%;
+  transition-duration: 1s;
 }
 
 .card-plat-name__A {

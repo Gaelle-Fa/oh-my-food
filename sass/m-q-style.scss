@@ -75,16 +75,24 @@
         margin-top: 2%;
     }
 /***Footer***/
-    .container-footer .title-footer{
-        justify-content: flex-end;
-        flex-direction: row;
-        margin-right: 5%;
-    }
-    .title-footer__nav{
+    .container-footer{
         display: flex;
         flex-direction: row-reverse;
-        margin-left: 30%;
-        
+        align-items: center;
+    }
+    .container-footer .title-footer{
+        align-items: flex-start;
+        flex-direction: row-reverse;
+        margin-right: 5%;
+        margin-left: 20px;
+    }
+    nav{
+        display: flex;
+        width: 50%;
+        margin-top: 20px; 
+    }
+    a{
+        margin-right: -25px;
     }
 /***page-resto***/
 
