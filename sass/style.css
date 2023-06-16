@@ -1,5 +1,6 @@
 * {
-  font-family: roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Shrikhand", cursive;
   box-sizing: border-box;
 }
 
@@ -293,6 +294,10 @@ button:hover {
   margin-right: 10px;
 }
 
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 .container-logo-pages {
   width: 100%;
   height: -moz-fit-content;
@@ -407,8 +412,8 @@ button:hover {
 }
 
 .h3-resto {
-  font-weight: lighter;
-  margin-left: 5%;
+  font-weight: 300;
+  margin-left: 10%;
   margin-bottom: 5%;
 }
 
@@ -420,6 +425,7 @@ button:hover {
 .card-plat {
   display: flex;
   flex-direction: column;
+  margin-left: 5%;
 }
 
 .card-plat__name {
