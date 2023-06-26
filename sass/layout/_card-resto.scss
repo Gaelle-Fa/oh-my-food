@@ -53,16 +53,12 @@
 
 .card-resto{
   border:none;
-  border-radius: 3px;
-  width: 90%;
-  height:260px ;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 35px;
   background-color: white;
-  margin-bottom: 5%;
   border-radius: 30px;
   box-shadow:$shadow;
   position: relative; 
+  
 }
   
 .card-img{
@@ -86,10 +82,11 @@
 }
    
 .card-title{
-  margin-top: -3%;
   margin-left:5%;
 }
-
+h3{
+  margin: 0;
+}
 .card-text{
-  margin-top: -3%;
+ 
 }

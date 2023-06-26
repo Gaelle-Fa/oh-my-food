@@ -8,9 +8,8 @@
   background-color: #F6F6F6 ;
   width: 90%;
   height: 80px;
-  margin-bottom: 10%;
-  box-shadow:$shadow;
- 
+  box-shadow:$shadow-light;
+  font-weight: 700;
 }
 .h2-container-list{
   margin-top: 10%;
@@ -22,18 +21,23 @@
 .btn-number{
     background-color:$purple ;
     color:white;
-    border-radius: 100%;
     border: none;
-    display: inline;
-    position: relative;
-    margin-left: -19%;
+    position:absolute;
+    left:5%;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
   } 
   .container-list{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 5%;
-    margin-right: 5%;
+    gap:35px;
+  
   }
   .i-list{
     font-size: 20px;
