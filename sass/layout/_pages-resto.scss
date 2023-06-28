@@ -1,26 +1,19 @@
 *{font-family: 'Roboto', sans-serif;
 }
 .container-logo-pages{
-    width: 100%;
-    height: fit-content;
     background-color:white;
-    margin-left: 5%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin:2%;
   }
   .logo-pages{
-    width: 70%;
-    height: 100px;
-    margin-left: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    
-  
+    width: 50%;
+    margin:auto
+
   }
   .icon-fleche{
-    font-size: xx-large;
-    display: flex;
-    margin-top: 10%;
+    font-size: x-large;
     text-decoration: none;
     color:black;
   }
@@ -135,10 +128,9 @@
       width: 90%;
       margin-left: 5%;
       margin-bottom: 5%;
-      box-shadow:$shadow;
+      box-shadow:$shadow-light;
       position: relative;
       overflow: hidden;
-     
      
     } 
     .card-plat__name:hover .card-plat-name__text {
@@ -212,20 +204,17 @@
       font-size: x-large;
     } 
   .btn-lineargradient-commande{
-    margin-left: 20%;
     border-radius: 50px;
-    width: 40%;
+    width: 50%;
     height: 40px;
     padding: 25px;
-    margin-top: 10%;
-    margin-left: 30%;
-    margin-bottom: 15%;
+    margin: auto;
     background:linear-gradient($purple,$pink);
     border : none;
     color: white;
     font-weight: 500;
     font-size: large;
-    box-shadow:$shadow;
+    box-shadow:$shadow-light;
     display: flex;
     align-items: center;
     justify-content: center;

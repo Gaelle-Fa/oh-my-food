@@ -13,7 +13,7 @@
   cursor: pointer;
   font-size: x-large;
   position:absolute;
-  right: 5px;
+  right: 15px;
   top: 80%;
   background-image: linear-gradient($purple,$pink);
   background-clip: text;
@@ -26,9 +26,10 @@
   cursor: pointer;
   font-size: x-large;
   position:absolute;
-  right: 5px;
+  right: 15px;
   top: 80%;
   opacity: 1;
+ 
 }
     
 .container-resto{
@@ -40,7 +41,7 @@
 .h2-container-resto{
   position: relative;
   margin-bottom: 10%;
-  margin-left: 5%;
+  margin-left: 10%;
   font-weight: 900;
 }
 
@@ -56,9 +57,10 @@
   margin: 35px;
   background-color: white;
   border-radius: 30px;
-  box-shadow:$shadow;
+  box-shadow:$shadow-light;
   position: relative; 
-  
+  width: 340px;
+  height: 251px;
 }
   
 .card-img{
@@ -83,10 +85,14 @@
    
 .card-title{
   margin-left:5%;
+  margin-top: 15px;
 }
 h3{
   margin: 0;
 }
 .card-text{
- 
+ color:black;
+}
+p{
+  margin:0;
 }
