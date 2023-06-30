@@ -5,24 +5,23 @@
         margin-left: 30%;
         width: 40%;
     }
- 
     .Card-list{
         display: flex;
-       
-       
-        width: 25%;
+        width: 35%;
+    }
+    .btn-number{
+        margin:3%;
+        position: relative;
+        margin-left: -85px;
     }
     .h2-container-list{
-        margin-left: 5% ;
-        
-   
+        margin: 5% ;
     }
     .container-list{
-        display: flex;
         flex-direction: row;
-      
-        justify-content: space-evenly;
-        
+        justify-content: space-between;
+        margin-right: 5%;
+        margin-bottom: 5%;
     }
     .container-resto{
         display: flex;
@@ -37,82 +36,79 @@
         margin: 0;
         position: absolute;
     }
-.container-resto__title{
-    position:absolute;
-    margin-top: -7%;
-    margin-left: -78%;
-}
-
-        .h2-container-resto{  
-        margin-left: 5%;
-        margin-bottom: 0;
-        display: flex;
-        margin-top: 15%;
-    }    
     .card-resto{
         flex-direction: row;
         flex-wrap: wrap;
-        width: 40%;
+        width: 40%;    
+    }
+    .container-resto__title{
+        position:absolute;
+        margin-top: -7%;
+        margin-left: -78%;
+    }
+    .h2-container-resto{  
+         margin-left: 5%;
+        margin-bottom: 0;
+        display: flex;
+         margin-top: 15%;
+        }    
+        .card-title{
+            margin-top: 10px;
+        }
         
-    }
-    .heart-card{
-       display: flex;
-       flex-direction: row;
-      
+        .a__h3-link-title{
+            margin-bottom: 0;
+        }
         
-       
-    }
-    .btn-new{
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 30%;
-        margin-top: 2%;
-    }
-/***Footer***/
-    .container-footer{
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-    }
-    .container-footer .title-footer{
-        align-items: flex-start;
-        flex-direction: row-reverse;
-        margin-right: 5%;
-        margin-left: 20px;
-    }
-    nav{
-        display: flex;
-        width: 50%;
-        margin-top: 20px; 
-    }
-    a{
-        margin-right: -25px;
-    }
-/***page-resto***/
-
-    .container-logo-pages{
-        height: 180px;
-        display: flex;
-        align-items: center;
-        width: 70%;
-    }
-    .logo-pages{
-        margin-left: 25%;
-        margin-bottom: 3%;
+        .btn-new{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 30%;
+            margin-top: 2%;
+        }
+        /***Footer***/
+        .container-footer{
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+        .container-footer .title-footer{
+            align-items: flex-start;
+            flex-direction: row-reverse;
+            margin-right: 5%;
+            margin-left: 20px;
+        }
+        nav{
+            display: flex;
+            width: 50%;
+            margin-top: 20px; 
+        }
+        a.list-footer-icon{
+            margin-right: -25px;
+        }
+        /***page-resto***/
         
-    }
-    .icon-fleche{
-        font-size:xx-large;
-        display: flex;
-        align-items: center;
-        margin-left: 5%;
-        margin-bottom: 5%;
-       
-    }
+        .container-logo-pages{
+            justify-content: center;
+        }
+        .logo-pages{
+            width: auto;
+        }
+        .icon-fleche{
+            font-size:xx-large;
+        }
+        .img-resto{
+            height: 383px;
+        }
     .menu-container{
         width: 80%;
         margin-left: 10%;
+    }
+    .card-resto-menu__resto-name{
+        display: flex;
+        justify-content: center;
+        
     }
     .resto-name{
         display: flex;
@@ -121,30 +117,36 @@
         font-size: 28px;
         font-weight: 400;
     }  
+    .hoverheart__content-solid{
+        right:25%;
+    }
+    .hoverheart__content-light{
+        right:25%;
+    }
     .heart-card-page{
         display: flex;
         justify-content: center;
         align-items: center;
         margin-left: 5%;
         margin-top: 1%;
-       
+        
+    }
+    .h3-resto{
+        margin-left: 10%;
+        
     }
     .card-plat{
-        width: 60%;
-        margin-left: 20%;
+        width: 80%;
+        margin-left: 10%;
     }
+    
     .btn-lineargradient-commande{
         width: 20%;
         justify-content: center;
         margin-left: 40%;
+        margin-bottom: 5%;
     }
-    .h3-resto{
-        margin-left: 23%;
-        
-    }
-    .body-resto{
-        background-color: white;
-    }
+   
     .container-footer{
         position: relative;
         background-color:#353535;

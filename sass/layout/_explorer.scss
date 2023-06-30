@@ -1,29 +1,30 @@
-.container-bloc-title{
+.container-bloc-title {
   padding: 2rem;
   text-align: center;
   background: $color-background;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-      
-  .P{
+
+  .P {
     font-weight: 300;
   }
-  .btn-lineargradient{
-   background: linear-gradient(#9356DC, #FF79DA);
-   color:white;
-   border:none;
-   border-radius: 30px;
-   font-size: 20px;
-   padding: 20px;
-   margin: 20px auto;
-   box-shadow: $shadow-light;
-    
+
+  .btn-lineargradient {
+    background: linear-gradient(#9356DC, #FF79DA);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: $shadow-light;
+
   }
 }
 
- button:hover{
-    opacity: 0.7;
-    box-shadow: $shadow-light,
-    
+button:hover {
+  opacity: 0.7;
+  box-shadow: $shadow-light,
+
 }

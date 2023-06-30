@@ -35,15 +35,15 @@
  
 .entrees{
   
-  animation: menu 3s 2.5s both;
+  animation: menu 3s 1s both;
 }
 .plats{
   
-  animation: menu 3s 3.5s both;
+  animation: menu 3s 1.5s both;
 }
 .desserts{
  
-  animation: menu 3s 4.5s both;
+  animation: menu 3s 2s both;
 }
   .menu-container{
     position: relative;
@@ -70,7 +70,7 @@
     font-family: Shrikhand;
     font-weight:bolder;
     font-size: xx-large;
-    margin:5%;
+   
     
   } 
   
@@ -108,9 +108,7 @@
 
   .h3-resto{
     font-weight:300;
-    margin-left: 10% ;
     margin-bottom: 5%;
-   
   }
   .h3-resto-border{
     border-bottom: solid 3px $green-wather;
@@ -119,14 +117,12 @@
   .card-plat{
    display: flex;
    flex-direction: column;
-   margin-left: 5%;
+   
   }
   .card-plat__name{
       border: none;
       border-radius: 20px;
       background-color:white;
-      width: 90%;
-      margin-left: 5%;
       margin-bottom: 5%;
       box-shadow:$shadow-light;
       position: relative;
@@ -182,6 +178,9 @@
     
   }
   .card-plat-name__check-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     background-color:$green-wather;
     top: 0;
