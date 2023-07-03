@@ -1,7 +1,6 @@
 .container-footer{
   background-color:$dark-grey;
   color:white;
-  margin-top: -5%;
   padding-bottom: 3%;
  
 .title-footer{
@@ -9,9 +8,8 @@
     font-weight:bolder;
     margin-left: 5%; 
     font-size: 25px;
-    color: white;
-    display: flex;
-    flex-direction: column;
+    
+    margin-top: 0;
   }
   .list-footer{
     
