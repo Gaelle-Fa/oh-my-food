@@ -17,6 +17,7 @@ body {
 }
 
 .logo-header {
+  font-family: Shrikhand;
   width: 50%;
   display: flex;
   justify-content: space-around;
@@ -312,6 +313,7 @@ p {
 .logo-pages {
   width: 50%;
   margin: auto;
+  font-family: Shrikhand;
 }
 
 .icon-fleche {
@@ -357,7 +359,7 @@ p {
 }
 
 .card-resto-menu {
-  margin: 0px 20px;
+  margin: 30px auto;
 }
 
 .bloc-menu {
@@ -452,7 +454,7 @@ p {
 .card-plat-name__plat {
   margin: 10px 0px 0px 15px;
   font-weight: normal;
-  font-size: x-large;
+  font-size: 18px;
   width: 90%;
   overflow: hidden;
   white-space: nowrap;
@@ -462,6 +464,7 @@ p {
 .card-plat-name__text {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   overflow: hidden;
   width: 100%;
   transform-origin: left 50%;
@@ -471,6 +474,7 @@ p {
 .card-plat-name__A {
   margin-left: 15px;
   font-weight: 400;
+  font-size: 15px;
   width: 90%;
   white-space: nowrap;
   overflow: hidden;
@@ -479,11 +483,11 @@ p {
 
 .card-plat-name__P {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   width: 50px;
   font-weight: bold;
   font-size: large;
-  margin: 15px 0 15px 5px;
+  margin: 15px 0 9px 5px;
 }
 
 .card-plat-name__check-content {
